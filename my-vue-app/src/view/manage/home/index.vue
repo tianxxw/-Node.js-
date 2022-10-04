@@ -102,34 +102,34 @@
     <div class="top_right">
       <div class="right_content">
       <div style="width: 100px; height: 150px;background-color: salmon;">
-       <div class="title">景点数</div><el-image style="width: 60px; height: 90px" src="http://127.0.0.1:3020/order_num.png" fit="contain" /></div>
+       <div class="title">景点数</div><el-image style="width: 60px; height: 90px" src="http://119.29.141.196:9000/order_num.png" fit="contain" /></div>
        <div class="text"><div>{{attractions.length}}</div></div>
       </div>
       <div class="right_content">
       <div style="width: 100px; height: 150px;background-color:rgba(0,122,204);">
        <div class="title">美食数</div>
-       <el-image style="width: 60px; height: 90px" src="http://127.0.0.1:3020/user_num.png" fit="contain" />
+       <el-image style="width: 60px; height: 90px" src="http://119.29.141.196:9000/user_num.png" fit="contain" />
       </div>
       <div class="text">{{food.length}}</div>
       </div>
       <div class="right_content">
       <div style="width: 100px; height: 150px;background-color:rgba(250,195,38);">
        <div class="title">餐厅数</div>
-       <el-image style="width: 60px; height: 90px" src="http://127.0.0.1:3020/good_num.png" fit="contain" />
+       <el-image style="width: 60px; height: 90px" src="http://119.29.141.196:9000/good_num.png" fit="contain" />
       </div>
       <div class="text">{{restaurant.length}}</div>
       </div>
       <div class="right_content">
       <div style="width: 100px; height: 150px;background-color:rgba(41,184,183)">
        <div class="title">酒店数</div>
-       <el-image style="width: 60px; height: 90px" src="http://127.0.0.1:3020/visitor_num.png" fit="contain" />
+       <el-image style="width: 60px; height: 90px" src="http://119.29.141.196:9000/visitor_num.png" fit="contain" />
       </div>
       <div class="text">{{hotel.length}}</div>
       </div>
       <div class="right_content">
         <div style="width: 100px; height: 150px;background-color:rgba(41,184,183)">
          <div class="title">游记攻略</div>
-         <el-image style="width: 60px; height: 90px" src="http://127.0.0.1:3020/visitor_num.png" fit="contain" />
+         <el-image style="width: 60px; height: 90px" src="http://119.29.141.196:9000/visitor_num.png" fit="contain" />
         </div>
         <div class="text">{{notes.length}}篇</div>
         </div>

@@ -140,7 +140,7 @@
     </el-form>
     <span class="img">上传用户头像</span>
     <el-upload
-      action="http://127.0.0.1:3007/img/upload"
+      action="http://119.29.141.196:9000/img/upload"
       list-type="picture-card"
       :on-preview="handlePictureCardPreview"
       :on-success="handleAvatarSuccess"
