@@ -1,0 +1,11 @@
+const express = require('express')
+const router = express.Router()
+const hotel = require('../router_headler/hotel')
+router.post('/all',hotel.all)
+router.get('/ma_all',hotel.ma_all)
+router.post('/search',hotel.search)
+router.post('/delete',hotel.delete)
+router.post('/add',hotel.add)
+router.post('/update',hotel.update)
+router.post('/details',hotel.details)
+module.exports = router

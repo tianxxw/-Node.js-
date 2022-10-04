@@ -1,0 +1,11 @@
+const express = require('express')
+const router = express.Router()
+const notes = require('../router_headler/notes')
+router.post('/all',notes.all)
+router.get('/ma_all',notes.ma_all)
+router.post('/delete',notes.delete)
+router.post('/add',notes.add)
+router.post('/update',notes.update)
+router.post('/search',notes.search)
+router.post('/details',notes.details)
+module.exports = router

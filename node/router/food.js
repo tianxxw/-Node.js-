@@ -1,0 +1,11 @@
+const express = require('express')
+const router = express.Router()
+const food = require('../router_headler/food')
+router.post('/all',food.all)
+router.get('/ma_all',food.ma_all)
+router.post('/delete',food.delete)
+router.post('/add',food.add)
+router.post('/search',food.search)
+router.post('/update',food.update)
+router.post('/details',food.details)
+module.exports = router

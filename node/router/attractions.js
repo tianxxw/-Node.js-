@@ -1,0 +1,11 @@
+const express = require('express')
+const router = express.Router()
+const attractions = require('../router_headler/attractions')
+router.post('/all',attractions.all)
+router.get('/ma_all',attractions.ma_all)
+router.post('/search',attractions.search)
+router.post('/delete',attractions.delete)
+router.post('/add',attractions.add)
+router.post('/update',attractions.update)
+router.post('/details',attractions.details)
+module.exports = router
